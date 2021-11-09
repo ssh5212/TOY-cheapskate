@@ -10,8 +10,8 @@ def main():
 
 @app.route('/result', methods= ['POST', 'GET'])
 def inputData():
-	data = request.args.get('namespace', default = 'ns-abc-aaa', type = str)
-	print('hello')
+	data = request.args.get('data', default = 'ns-abc-aaa', type = str)
+	print(data)
 	return render_template('index.html', data=data)
 
 @app.route('/id/<id>') # 특정 url에 접속하면 다음 줄에 있는 함수를 호출
