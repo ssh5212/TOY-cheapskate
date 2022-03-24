@@ -27,3 +27,6 @@
 
 ## 결과 화면
 ![](https://user-images.githubusercontent.com/26498125/140603882-9f43a676-8c96-4e7c-a717-c06f157ff3b8.png)
+
+## Reference
+https://github.com/kairess/Korea-Chicken-Database
